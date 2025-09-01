@@ -52,8 +52,8 @@ class ContainsDuplicate {
         }
         return false;
         // Time complexity : O(nlogn)
-//         Space complexity : Arrays.sort(nums) in Java uses Dual-Pivot Quicksort for primitives (like int[]).
-//          That algorithm has O(log n) auxiliary space (due to recursion stack).
+//      Space complexity : Arrays.sort(nums) in Java uses Dual-Pivot Quicksort for primitives (like int[]).
+//That algorithm has O(log n) auxiliary space (due to recursion stack).
     }
 
     private boolean hashSetMethod(int[] nums){
